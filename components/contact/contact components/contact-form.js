@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Notification from '../ui/notifications';
+import Notification from '../../ui/notifications';
 
 
  async function SendContactData(ContactDetails){
@@ -20,6 +20,7 @@ import Notification from '../ui/notifications';
 
 function ContactForm() {
   const [enteredLastName, setEnteredLastName] = useState('')
+  const [enteredPhoneNumber, setEnteredPhoneNumber] = useState('')
   const [enteredEmail, setEnteredEmail] = useState('');
   const [enteredName, setEnteredName] = useState('');
   const [enteredMessage, setEnteredMessage] = useState('');
@@ -49,10 +50,12 @@ function ContactForm() {
         email: enteredEmail,
         name: enteredName,
         fullName: enteredLastName,
+        phoneNumber: enteredPhoneNumber,
         message: enteredMessage,
       });
       setRequestStatus('success');
       setEnteredMessage('');
+      setEnteredPhoneNumber('')
       setEnteredEmail('');
       setEnteredName('');
       setEnteredLastName('')
@@ -105,7 +108,7 @@ function ContactForm() {
              '>
                  <form  onSubmit={sendMessageHandler}
                  class=' ml-8  items center md:ml-0'>
-                     <div class='w-full '>
+                     <div class='w-full grid justify-items-stretch  '>
                        <div class=' w-full'>
                           <label htmlFor="name">First Names*</label>
                           <br />
@@ -135,6 +138,16 @@ function ContactForm() {
                           required 
                           value={enteredEmail}
                           onChange={(event) => setEnteredEmail(event.target.value)}
+                          class=' w-full h-7 rounded-lg ' 
+                          />
+                      </div>
+                      <div class=' mt-4 w-full '>
+                          <label htmlFor="number">Phone number*</label> <br />
+                          <input 
+                          type="text" 
+                          required 
+                          value={enteredPhoneNumber}
+                          onChange={(event) => setEnteredPhoneNumber(event.target.value)}
                           class=' w-full h-7 rounded-lg ' 
                           />
                       </div>
@@ -198,5 +211,6 @@ function ContactForm() {
 }
 
 export default ContactForm
+
 
 

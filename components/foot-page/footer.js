@@ -1,29 +1,47 @@
-
+import Link from 'next/link'
 
 function Footer() {
-    return(
-        <footer class='bg-gray-600 '>
-            <div class='h-full pt-8'>
-                <div class='ml-28 border-2 border-red-500  '>
-                    <div class='' >
-                        <h2 class='text-gray-300
-                        font-bold 
-                        '>CONTACT US</h2>
-                        <div class='text'>
-                        <h2>Vuluwani Head Office</h2>
-                        <p>3889 Okapi Close, <br />
-                     Down Park EXT 7, Boksburg, 1459</p>
-                     <p>Tel: +27 81 280 1979</p>
-                     </div>
-                    </div>
-                    <div>
-                        <h1>Contact us</h1>
-                        <p></p>
+    return (
+        <section class=' bg-black pt-12 flex justify-center' >
+            <div class='flex justify-items-stretch  justify-evenly text-white ml-28 mr-28 border-2 border-white w-4/6'>
+                <div>
+                    <div >
+                        <p>388 OKAPI CLOSE <br /> DAWN PARK  EXT 7 <br />BOKSBURG <br />1459</p>
                     </div>
                 </div>
+                <div class='ml-8 mr-10 divide-y-2 divide-fuchsia-300'>
+                    <h2 class='pb-2 text-lg'>Services</h2>
+                    <p class='pt-2'>Air Freight <br />
+                    Abnormal Loads <br /> Cross Border Road Freight <br />  Container Loads <br /> Domestic Road Freight <br />In-House Operator</p>
+                </div>
+                <div class='  mr-10 divide-y-2 divide-fuchsia-300'>
+                 <div class=' pb-2'>
+                     <h1 class='text-lg'>Links</h1>
+                 </div>
+                 <nav class='pt-2 '>
+                    <ul class=' '>
+                    <li class="no-underline hover:underline ..." >
+                        <Link href='/'>Home</Link>
+                    </li>
+                    <li class="no-underline hover:underline ..." >
+                        <Link  
+                        href='services'>Services</Link>
+                    </li>
+                    <li class="no-underline hover:underline ...">
+                        <Link  href='/clients'>Our Clients </Link>
+                    </li>
+                    <li class="no-underline hover:underline">
+                        <Link 
+                         href='/contact'>Contact</Link>
+                    </li>
+                    </ul>
+                  </nav>
+                 </div>
             </div>
+            <div>
 
-        </footer>
+            </div>
+        </section>
     )
 }
 
