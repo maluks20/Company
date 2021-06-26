@@ -93,7 +93,7 @@ function ContactForm() {
 
     return (
         <section class='font-bold text-gray-800 w-full flex justify-between  md:text-yellow-500
-        md: justify-center ' 
+        md:justify-center' 
         >
         <div class=' w-full flex   
             md:ml-28 md:mr-28 md:flex md:flex-col '>

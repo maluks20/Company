@@ -2,7 +2,7 @@ import react from 'react'
 
 function ContactUs() {
      return (
-         <section class=' border-2 border-red-500'>
+         <section class=' bg-gray-200'>
           <div class='pt-10 pb-6 md:ml-28 md:mr-28 md:border-4'>
               <div class='flex justify-center '>
                  <h1 class=' text-4xl'>Contact Us</h1>

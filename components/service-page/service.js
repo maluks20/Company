@@ -2,6 +2,7 @@ import Intro from './info/intro'
 import DetailedServices from './info/detailed'
 import ServiceList from './info/serviceList'
 import ServiceTop from './info/service-top'
+import ScheduleCall from '../clients/client components/callus'
 
 function Service() {
     return (
@@ -10,6 +11,7 @@ function Service() {
         <Intro/>
         <DetailedServices/>
         <ServiceList/>
+        <ScheduleCall/>
         </div>
     )
 }

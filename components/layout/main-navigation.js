@@ -37,7 +37,7 @@ import Logo from './logo'
 
 function MainNavigation() {
     return(
-        <header class='bg-pink-900 text-white h-full pb-8 '>
+        <header class='bg-white text-black h-full pb-8 '>
             <div class='flex items-center  justify inbetween w-full '>
                 <div class=' w-62 ml-8'>
                     <div class='  mt-12 ml-20 w-1/2 '>
@@ -55,16 +55,19 @@ function MainNavigation() {
                 </div>
                  <nav class=' w-1/3  flex justify-between'>
                 <ul class=' flex '>
-                    <li class=' m-2 bg-black hover:bg-red-100 rounded-lg w' >
+                    <li class=' m-2  no-underline hover:underline ' >
                         <Link href='/'>Home</Link>
                     </li>
-                    <li class='m-2' >
+                    <li class=' m-2  no-underline hover:underline ' >
+                        <Link href='/about'>About</Link>
+                    </li>
+                    <li class='m-2 no-underline hover:underline ' >
                         <Link href='services'>Services</Link>
                     </li>
-                    <li class='m-2'>
-                        <Link href='/clients'>Our Clients</Link>
+                    <li class='m-2 no-underline hover:underline '>
+                        <Link href='/clients'>Clients</Link>
                     </li>
-                    <li class='m-2'>
+                    <li class='m-2 no-underline hover:underline '>
                         <Link href='/contact'>Contact</Link>
                     </li>
                 </ul>

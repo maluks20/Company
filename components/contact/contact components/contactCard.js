@@ -2,14 +2,26 @@
 
 function ContactCard() {
     return (
-        <section class='border-2 border-yellow-800'>
-        <div class=' border-2 border-green-600 mr-28 ml- ml-28'>
+        <section >
+        <div >
           <div>
-            <div>06116968919 // 066688488288</div>
+            <p class='pt-4 '>
+            388 Okapi Close <br />
+            Dawn Park Exit 7 <br />
+            Boksburg br <br />1459
+            </p>
+            <p class='pt-4'>
+              <a href="tel:082 246 6854">Tel:082 246 6854</a>
+            </p>
+            <p class='pt-4'>
+              <a href="mailto:info@Vululwaniconsulting.co.za">General enquiries: info@Vululwaniconsulting.co.za</a>
+            </p>
+            <p class='pt-4'>
+              <a href="mailto:quotes@Vululwaniconsulting.co.za">General enquiries: quotes@Vululwaniconsulting.co.za</a>
+            </p>
+
           </div>
-          <div>
-              email...
-          </div>
+  
         </div>
         </section>
     )

@@ -1,5 +1,5 @@
-import IntroPage from './home-components/intropage'
-import Section from './home-components/about-the-company'
+import IntroPage from './home-components/section-1'
+import Section from './home-components/section-2'
 
 function HomePage() {
     return (
