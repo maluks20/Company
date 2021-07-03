@@ -3,7 +3,7 @@
 function CompanyProfile() {
     return(
         <section class='bg-white text-xl '>
-        <div class=' py-28 mx-72 font-light font-sans '>
+        <div class=' mx-10 py-6 lg:py-28 lg:mx-72 font-light font-sans text-sm'>
             <div>
                <h1 class='pb-2'>Mission</h1>
                <p class=''>To diligently service our clients with pride, honour and    dignity.

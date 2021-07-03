@@ -1,13 +1,13 @@
 
 function HeaderClients() {
     return(
-        <section>
-        <div class='pt-10 pb-6 md:ml-28 md:mr-28 md:border-4 bg-red-50'>
+        <section class='bg-pink-300'>
+        <div class=' py-4 mx-10 lg:pt-10 lg:pb-6 md:mx-28 md:border-4 '>
               <div class='flex justify-center '>
-                 <h1 class=' text-4xl'>Our Clients</h1>
+                 <h1 class='text-2xl lg:text-4xl'>Our Clients</h1>
               </div>
-              <div class='flex justify-center pt-4 text-2xl'>
-              <p class=' flex justify-center border-2 border-red-500  w-1/2 md:w-full text-center'>We love to meet people and talk opportunities. Give us a call to 
+              <div class='flex justify-center lg: pt-4 text-sm '>
+              <p class=' flex justify-center  border-2 border-red-500  lg:w-1/2 md:w-full text-left'>We love to meet people and talk opportunities. Give us a call to 
                    find out more about who we are and what we do.
                    </p>
             </div>

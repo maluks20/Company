@@ -136,6 +136,18 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-15.3.0.tgz#d6fed7d6bc6854306da3dea1af9f874b00783e26"
   integrity sha512-8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==
 
+"@vue/reactivity@^3.0.2":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.1.3.tgz#0aa4dfbac33f1fa296b9436042e5cbd3d84eeb46"
+  integrity sha512-495ymt2nUp9yPQxp+iH+Ya+o2xFpprJY8tLbAdJO0TOkBfN3dErheNhvrq6i1a33/v6qGTFhnUkemU7Xar0NSQ==
+  dependencies:
+    "@vue/shared" "3.1.3"
+
+"@vue/shared@3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.1.3.tgz#3f6f5e7226d8d2d965ef39780ae3f89dc906b5fc"
+  integrity sha512-uGBX4bZVFvgranxzpH3q1gGmICUjEUnNrMIBFeZRw8hBfCPhT+VnuY8+mG2l/yEyY73J9e6d36CtbFUqDXa12w==
+
 acorn-node@^1.6.1:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/acorn-node/-/acorn-node-1.8.2.tgz#114c95d64539e53dede23de8b9d96df7c7ae2af8"
@@ -154,6 +166,13 @@ acorn@^7.0.0:
   version "7.4.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
+
+alpinejs@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.2.1.tgz#d620d1ca121ae2bf22242c2dd427c04d826e5e2b"
+  integrity sha512-MYYGUmVHNWN27TvgAtUCYXZlfsXoVCrLQT3a0Ak6CQKqf1TCHfQKxmhzJWscW5kPcLlOK2aYmWbV2H+XyfN2FQ==
+  dependencies:
+    "@vue/reactivity" "^3.0.2"
 
 anser@1.4.9:
   version "1.4.9"
