@@ -2,27 +2,30 @@ import Image from 'next/image'
 
 function ListOfClients() {
     return (
-        <section class='bg-white flex justify-center py-20 w-full'>
-        <div class=' h-full grid gap-4 grid-cols-3  pt-16  '>
-            <div class='place-self-center'>
+        <section class='bg-white  py-20 mx-auto w-
+        sm:bg-white 
+        '>
+        <div class=' h-full lg:grid lg:gap-4 grid-cols-3  mx-10  sm:grid sm:grid-cols-2 gap-4 sm:mx-16'>
+
+            <div class=' pb-8 flex justify-center lg:place-self-center   '>
                 <Image
                  src='/images/Client-logo/Picture1.png'
                  alt={'am'}
-                 width={280}
-                 height={110}
+                 width={260}
+                 height={100}
                  responsive= 'layout'
                 />
             </div>
-            <div class='place-self-center'>
+            <div class='py-8 flex justify-center lg:place-self-center'>
                 <Image
                  src='/images/Client-logo/Picture2.png'
                  alt={'am'}
                  width={200}
-                 height={150}
+                 height={140}
                  
                 />
             </div>
-            <div class='place-self-center' >
+            <div class='py-8 flex justify-center lg:place-self-center' >
                 <Image
                  src='/images/Client-logo/Picture3.png'
                  alt={'am'}
@@ -31,7 +34,7 @@ function ListOfClients() {
                  
                 />
             </div>
-            <div class='place-self-center'>
+            <div class=' py-8 flex justify-center lg:place-self-center'>
                 <Image
                  src='/images/Client-logo/Picture4.png'
                  alt={'am'}
@@ -40,7 +43,7 @@ function ListOfClients() {
                  
                 />
             </div>
-            <div class='place-self-center' >
+            <div class='py-8 flex justify-center lg:place-self-center' >
                 <Image
                  src='/images/Client-logo/Picture5.png'
                  alt={'am'}
@@ -49,7 +52,7 @@ function ListOfClients() {
                  
                 />
             </div>
-            <div class='place-self-center'>
+            <div class='py-8 flex justify-center lg:place-self-center'>
                 <Image
                  src='/images/Client-logo/Picture6.png'
                  alt={'am'}
@@ -58,7 +61,7 @@ function ListOfClients() {
                  responsive='layout'
                 />
             </div>
-            <div class='place-self-center' >
+            <div class='py-8 flex justify-center lg:place-self-center' >
                 <Image
                  src='/images/Client-logo/Picture7.png'
                  alt={'am'}

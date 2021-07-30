@@ -3,9 +3,9 @@ import Rights from './rights'
 
 function FooterSection() {
     return (
-        <section class=' bg-black py-12 flex justify-center' >
-            <div class='lg:flex lg:justify-items-stretch  lg:justify-evenly text-white lg:mx-28  w-5/6'>
-                <div class=' justify-left flex'>
+        <section class=' bg-black py-12   justify-center ' >
+            <div class='md:flex md:justify-items-stretch  md:justify-evenly text-white lg:mx-28 mx-10  w-5/6 '>
+                <div class=' md:pt-5 '>
                     <div >
                         <p>388 OKAPI CLOSE <br /> DAWN PARK  EXT 7 <br />BOKSBURG <br />1459</p>
                     </div>
@@ -14,7 +14,7 @@ function FooterSection() {
                  <div class='divide-y-2 divide-fuchsia-300'>
                     <h2 class='pb-2 text-lg'>Services</h2>
                     <p class='pt-2'>Air Freight <br />
-                    Abnormal Loads <br /> Cross Border Road Freight <br />  Container Loads <br /> Domestic Road Freight <br />In-House Operator</p>
+                    Abnormal Loads <br /> Cross Border Road Freight <br />  Container Loads <br /> Domestic Road Freight <br />In-House Operator <br /> Freight Forwarding and Clearance</p>
                  </div>
                 </div>
                 <div class='  mr-10 divide-y-2 divide-fuchsia-300'>

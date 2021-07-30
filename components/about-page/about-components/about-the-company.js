@@ -3,17 +3,16 @@
 function CompanyProfile() {
     return(
         <section class='bg-white text-xl '>
-        <div class=' mx-10 py-6 lg:py-28 lg:mx-72 font-light font-sans text-sm'>
+        <div class=' mx-10  py-6 lg:py-28 lg:mx-72 font-light font-sans text-sm sm:text-base'>
             <div>
-               <h1 class='pb-2'>Mission</h1>
+               <h1 class=''>Mission</h1>
                <p class=''>To diligently service our clients with pride, honour and    dignity.
                  Delivering efficient and cost effective services that meets our client's expectations. To create employment, while encouraging skills transfer within different hierarchy of our employees through training and workshops
                </p>
             </div>
             <div>
                <h1 class='py-2'>Vision</h1>
-               <p>To assist businesses and public sectors to
-                  realize their return on Investment.
+               <p>To be globally recognised as a leading serviceprovider of logistics and supply chain solutions.
              </p>
             </div>
             <div>

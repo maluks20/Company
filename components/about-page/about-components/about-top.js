@@ -4,7 +4,7 @@ import react from 'react'
 function AboutTop() {
      return (
          <section class=' bg-pink-200'>
-          <div class=' mx-10 py-4 lg:pt-10 lg:pb-6 md:ml-28 md:mr-28 md:border-4 '>
+          <div class=' mx-16 py-4 lg:pt-10 lg:pb-6 md:ml-28 md:mr-28 md:border-4 '>
               <div class='flex justify-center '>
                  <h1 class=' text-3xl lg:text-4xl'>About Us</h1>
               </div>

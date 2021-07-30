@@ -94,26 +94,27 @@ function NewForm() {
   }
 
     return (
-    <section class='w-full  flex-grow-0 flex-shrink-0
-    
-     sm:justify-items-center sm:flex sm:w-auto  sm:flex-grow-0  sm:border-2 sm:flex-shrink-0 sm:font-bold     
+    <section class=' 
+         sm:font-bold   bg-white   border-2 border-indigo-600
  '>
-    <div class='flex flex-col mx-0 py-0 w-auto
-        
-        
-        sm:flex sm:mx-0  sm:flex-col sm:justify-items-center sm:flex-shrink-0 '>
-            <div class='lg:w-2/6 p-10 text-white bg-indigo-700  
-    
-            sm:w-full    '>
+    <div class=' mx-0  
+        sm:mx-10 sm:py-8 
+          '>
+           {/* //first contact card// */}
+          <div class='lg:w-2/6 p-10 text-white bg-indigo-700  
+            sm:w-full shadow '>
                 <div class='sm:w-auto'>
                   <p class=' text-xl antialiased'>Contact information</p>
-                  <p class='pt-4  sm:text-left sm:flex sm:flex-shrink '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore nemo, enim accusantium vero eius.</p>
+                  <p class='pt-4  sm:text-left '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore nemo, enim accusantium vero eius.</p>
                 </div>
                  <div>
                   <ContactCard/>
                 </div>
-            </div>
-            <div class=' p-10 lg:w-4/6 text-black bg-white  sm:w-auto'>
+              </div>
+
+               {/* //second contact card */}
+
+              <div class=' p-10 lg:w-4/6 text-black bg-gray-50  shadow sm:w-auto'>
                 <form onSubmit={sendMessageHandler}>
                     <div class=''>
                         <p class='font-bold text-xl'>Send us a message</p>
@@ -135,7 +136,7 @@ function NewForm() {
                   </div>
 
                  
-                 <div class='lg:w-3/6 h-full lg:ml-6 md:w-full md:ml-0  sm:w-full sm:ml-0'>
+                 <div class='lg:w-3/6 h-full lg:ml-6 md:w-full md:ml-0  sm:w-full sm:ml-0 sm:py-2'>
                  <label htmlFor="email">Last name</label>
                   <br />
                     <input 
@@ -149,7 +150,7 @@ function NewForm() {
                 </div>
                
                 {/* //second part// */}
-              <div class=' lg:justify-items-stretch  lg:justify-center pt-4 md:flex md:flex-col md:w-full sm:flex sm:flex-col'>
+              <div class=' lg:justify-items-stretch  lg:justify-center py-4  md:flex md:flex-col md:w-full sm:flex sm:flex-col sm:py-2'>
                    <div class=' lg:w-4/6  h-full md:w-full sm:w-full'>
                      <label htmlFor="email">Email address </label> <br />
                     <input 
@@ -161,7 +162,7 @@ function NewForm() {
                   </div>
 
                 
-                    <div class=' lg:w-4/6  h-full lg:ml-6 md:w-full md:ml-0 md:pt-2 sm:ml-0 sm:w-full'>
+                    <div class=' lg:w-4/6  h-full lg:ml-6 md:w-full md:ml-0 md:pt-2 sm:ml-0 sm:w-full sm:py-2'>
                      <label htmlFor="number">Phone number</label> <br />
                      <input 
                      type="text" 
@@ -173,7 +174,7 @@ function NewForm() {
                 </div>
 
                 
-              <div class='  h-full w-6/6 py-2 pt-4 '>
+              <div class='  h-full w-6/6 py-2 pt-4 sm:py-2'>
                 <div class=''>
                   <p>Message</p>
                 </div>
@@ -185,11 +186,11 @@ function NewForm() {
                 class=' rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent w-full h-32'  name=""></textarea>
              </div>
              <div class=' w-auto h-12 lg:w-2/6 py-2 md:w-4/5'>
-                 <button class=' h-full rounded-sm text-white w-3/5 justify-center  mb-4  transition duration-500 ease-in-out bg-indigo-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110
+                 <button class=' h-auto rounded-sm text-white  justify-center  mb-4 transition duration-500 ease-in-out bg-indigo-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 p-2
                          md:ml-0'>
                      Send Message
                   </button>
-                  </div>
+                </div>
                 </form>
                 {notification && (
                 <Notification

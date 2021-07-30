@@ -3,7 +3,7 @@ import react from 'react'
 function ContactUs() {
      return (
          <section class=' bg-white'>
-          <div class=' py-4 lg:pt-10 lg:pb-6 md:ml-28 md:mr-28 md:border-4'>
+          <div class=' mx-10 sm:mx-16 py-4 lg:pt-10 lg:pb-6 md:ml-28 md:mr-28 md:border-4'>
               <div class='flex justify-center '>
                  <h1 class=' text-3xl'>Contact us</h1>
               </div>
