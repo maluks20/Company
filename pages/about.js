@@ -1,9 +1,11 @@
-import About from  '../components/about-page/about'
+import ContactLink from '../components/ui/contactgeneric'
+import AboutTheCompany from '../components/about-page/AboutCompany'
 import Footer from '../components/foot-page/footer'
 function AboutPage() {
     return(
         <section>
-        <About/>
+        <AboutTheCompany/>
+        <ContactLink/>
         <Footer/>
         </section>
     )

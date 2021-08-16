@@ -66,6 +66,7 @@ function MainNavigation() {
 
     return (
     <header class='bg-white text-black h-full  border-2 border-white'>
+        <div class='lg:mx-36'>
         <div class='md:mx-8'>
          {MobileButton}
         <div class='w-1/3 mt-2 mx-8 '>
@@ -82,26 +83,30 @@ function MainNavigation() {
          </div>
         <nav class=' hidden   md:flex mx-14 mb-6 font-semibold' >
             <div class=' flex justify-end w-full '>
-                <ul class=' flex  text-sm '>
-                    <li class='m-2 no-underline hover:underline'>
+                <ul class=' flex  text-base '>
+                    <li class='m-4 no-underline hover:underline'>
                         <Link href='/'>Home</Link>
                     </li>
-                    <li class=' m-2 no-underline hover:underline font-semibold '>
+                    <li class=' m-4 no-underline hover:underline font-semibold '>
                         <Link href='/about'>About</Link>
                     </li>
-                    <li class='m-2 no-underline hover:underline' >
+                    <li class='m-4 no-underline hover:underline' >
                         <Link href='services'>Services</Link>
                     </li>
-                    <li class='m-2 no-underline hover:underline'>
+                    <li class='m-4 no-underline hover:underline'>
                         <Link href='/clients'>Clients</Link>
                     </li>
-                    <li class='m-2 no-underline hover:underline'>
-                        <Link href='/contact'>Contact</Link>
+                    <li class='m-2 '>
+                        <div class='text-gray-50  bg-green-800 sm:w-auto w-32 p-2  font-bold border-2 border-gray-50 bg-blend-multiply  transition duration-500 ease-in-out hover:bg-white 
+                        hover:border-4 hover:border-green-800 hover:text-green-800'>
+                        <Link href='/contact'>CONTACT US</Link>
+                        </div>
                     </li>
                 </ul>
                 </div>
           </nav>
           <hr />
+          </div>
         </header>
     )
 }

@@ -2,7 +2,7 @@
 import DetailedServices from './info/detailed'
 import ServiceList from './info/serviceList'
 import ServiceTop from './info/service-top'
-import ScheduleCall from '../clients/client components/callus'
+
 
 function Service() {
     return (
@@ -10,7 +10,6 @@ function Service() {
         <ServiceTop/>
         <DetailedServices/>
         <ServiceList/>
-        <ScheduleCall/>
         </div>
     )
 }
