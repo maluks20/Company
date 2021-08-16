@@ -4,7 +4,7 @@ import FooterSection from './footer-1'
 
 function Footer() {
     return (
-        <div >
+        <div class='text-sm md:text-base' >
         <FooterSection/>
         <Rights/>
         </div>

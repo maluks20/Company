@@ -1,11 +1,12 @@
 import IntroPage from './home-components/section-1'
-import Section from './home-components/section-2'
+import HomeSection from './home-components/section-2'
+
 
 function HomePage() {
     return (
     <div>
         <IntroPage/>
-        <Section/>
+        <HomeSection/>
     </div>
     )
 }

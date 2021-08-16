@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function ServiceList() {
     return (
-    <section class='bg-white '>
+    <section class='bg-white  text-sm '>
      <div class='md:mx-28 mx-10 md:py-10 '>
         
         
@@ -19,8 +19,8 @@ function ServiceList() {
 
         <div class='  md:grid md:gap-5 md:grid-cols-2'>
 
-         <card class='  border-3  border-gray-100 '>
-            <div class='border-3 p-4  shadow-md py-4 sm:pl-6'>
+         <card class='  border-3 border border-red-100 md:h-70'>
+            <div class='border-3 p-4  shadow-md py-4 sm:pl-6 md:min-h-full '>
              <div class=''>
                  <Image
                  src='/images/Services/Picture8.png'
@@ -30,7 +30,7 @@ function ServiceList() {
                  responsive='layout'
                  />
              </div>
-             <div class='font-bold py-4 lg:text-2xl '>
+             <div class='font-bold py-4 lg:text-base '>
                  <h1>Abnormal Loads (domestic and cross border</h1>
              </div>
              <div class=''>
@@ -41,8 +41,8 @@ function ServiceList() {
          </card>
 
 
-         <card class='  border-4 border-gray-50  '>
-          <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6 '>       
+         <card class='  border-4 border-gray-50 md:h-70 '>
+          <div class='p-2 shadow-md sm:py-10  sm:pl-6  md:h-full'>       
              <div>
                  <Image
                  src='/images/Services/Picture9.png'
@@ -63,8 +63,8 @@ function ServiceList() {
              </div>
          </card>
 
-         <card class=' md:shadow-md border-3  border-gray-100'>
-             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6'>
+         <card class=' md:shadow-md border-3  border-gray-100 md:h-70 border-2'>
+             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6 md:h-full border-yellow-300 border-2'>
              <div>
                  <Image
                  src='/images/Services/Picture10.png'
@@ -85,8 +85,8 @@ function ServiceList() {
          </card>
 
 
-         <card class=' border-3 border-gray-100 '>
-             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6'>
+         <card class=' border-3 border-gray-100 md:h-70 border-2 '>
+             <div class='md:min-h-full h-70 p-2 md:p-2 shadow-md sm:py-10 sm:pl-6'>
              <div>
                  <Image
                  src='/images/Services/Picture11.png'
@@ -107,8 +107,8 @@ function ServiceList() {
              </div>
          </card>
 
-         <card class='  border-3 border-white '>
-             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6'>
+         <card class='  border-3 border-white md:h-70'>
+             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6 md:h-full'>
              <div>
                  <Image
                  src='/images/Services/Picture12.png'
@@ -129,8 +129,8 @@ function ServiceList() {
              </div>
          </card>
 
-         <card class='lg:shadow-md  border-4 border-white '>
-             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6'>
+         <card class='lg:shadow-md  border-4 border-white md:h-70 '>
+             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6 md:h-full'>
              <div>
                  <Image
                  src='/images/Services/Picture13.png'

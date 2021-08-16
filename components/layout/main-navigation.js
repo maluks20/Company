@@ -16,11 +16,16 @@ function MainNavigation() {
 
 
     const MobileButtonMenu = (
-    <section class='bg-gray-100  '>
+    <section class='bg-gray-100 md:hidden  '>
       <div class='w-full mx-8'>
         <nav class=' text-black  w-full '  >
           <div class='flex w-full '>
                     <ul class='flex-col font-semibold  text-black text-xs w-full'>
+                    <li class='m-2'>
+                        <Link href='/'>
+                         <p class=' hover:opacity-25 w-full my-4'>Home</p>
+                        </Link>
+                    </li> <hr />
                     <li class='m-2'>
                         <Link href='/about'>
                          <p class=' w-full my-4 hover:opacity-25'>About</p>
@@ -75,17 +80,20 @@ function MainNavigation() {
          </div>
          {openMenu && MobileButtonMenu}
          </div>
-        <nav class=' hidden   md:flex mx-14 mb-6' >
+        <nav class=' hidden   md:flex mx-14 mb-6 font-semibold' >
             <div class=' flex justify-end w-full '>
                 <ul class=' flex  text-sm '>
-                    <li class=' m-2 no-underline hover:underline '>
-                        <Link href='/about'>About us</Link>
+                    <li class='m-2 no-underline hover:underline'>
+                        <Link href='/'>Home</Link>
+                    </li>
+                    <li class=' m-2 no-underline hover:underline font-semibold '>
+                        <Link href='/about'>About</Link>
                     </li>
                     <li class='m-2 no-underline hover:underline' >
                         <Link href='services'>Services</Link>
                     </li>
                     <li class='m-2 no-underline hover:underline'>
-                        <Link href='/clients'>Our clients</Link>
+                        <Link href='/clients'>Clients</Link>
                     </li>
                     <li class='m-2 no-underline hover:underline'>
                         <Link href='/contact'>Contact</Link>
@@ -93,7 +101,7 @@ function MainNavigation() {
                 </ul>
                 </div>
           </nav>
-          
+          <hr />
         </header>
     )
 }

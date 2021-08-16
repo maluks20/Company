@@ -1,33 +1,92 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-//* About the company === direct to about us page
 
- function Section() {
+ function HomeSection() {
+
+    const AboutTheCompany = (
+       <section class='bg-gray-100 text-black'>
+        <div class='md:x-30  border-red-700 border-2'>
+        <div class='md::px-72'>
+        <p class='text-center font-bold lg:text-xl'>Vululwani Consulting is a South African privately owned company established in 2015. <br/> We offer comprehensive and cost effective logistics solutions in Southern Africa,<br/> Collectively our team has more than 15 years of experience in <br/> cost effective logistics.</p>
+        </div>
+
+        <div class='flex justify-center text-xs sm:text-base px-2 pb-2'>
+           <div class='flex justify-center md:pt-10 '>
+               <div class=' border-2 border-green-800 sm:w-auto w-36 p-2  font-bold  bg-blend-multiply  transition duration-500 ease-in-out hover:bg-green-800 '>
+                <Link class='' href='/about'>About Our Company </Link>
+              </div>
+       </div>
+    </div>
+
+    </div>
+       </section>
+    )
+
+    const SomeOfOurClients = (
+        <section class='text-black '>
+        <div class=' md:px-6 md:mx-16 lg:mx-28 border-2 border-green-700 py-10'>
+          <p class='text-xl text-center font-bold pt-2'>Some of our client that we work with</p>
+            <div class=' md:py-8 md:pt-8 border-2 border-blue-600 md: gap-8 md:flex md:justify-center'>
+             <div class='place-self-center'>
+                <Image
+                 src='/images/Client-logo/Picture1.png'
+                 alt={'am'}
+                 width={280}
+                 height={110}
+                 responsive= 'layout'
+                />
+             </div>
+             <div class='place-self-center'>
+                <Image
+                 src='/images/Client-logo/Picture2.png'
+                 alt={'am'}
+                 width={200}
+                 height={150}
+                 
+                />
+             </div>
+             <div class='place-self-center' >
+                <Image
+                 src='/images/Client-logo/Picture3.png'
+                 alt={'am'}
+                 width={300}
+                 height={95}
+                 
+                />
+             </div>
+            </div>
+        </div> 
+        </section>
+    )
+
+    const ContactLink = (
+        <section class=' text-black bg-gray-300' >
+        <div class='md:mx-16 lg:mx-22 md:py-8 '>
+            <p class='text-center text-xl font-bold py-2'>
+                Ready to take your business to the next level? Let's talk...
+            </p>
+            <p class='text-center'>
+              We are standing by, ready to assist you and  help you to <br /> determine which logistics solutions will be the <br /> best fit for your needs.
+              </p>
+            <div class='flex justify-center md:pt-6 '>
+            <div class='text-black border-4 bg-green-800 sm:w-auto w-32 p-2  font-bold      bg-blend-multiply  transition duration-500 ease-in-out hover:bg-white hover:border-green-800 hover:text-green-800'>
+                <Link class='' href='/contact'> CONTACT US </Link>
+            </div>
+            </div>
+        </div>
+        </section>
+
+
+
+    )
      return (
-        <section class=' md:h-screen text-white bg-white'>
-         <div class='  h-3/5 md:h-4/5  bg-cover bg-center ' style={{backgroundImage : 'url(/images/Background/P3.jpg)'}} > 
-         <div class='mx-10 sm:mx-16 sm:py-4 '>
-          <div class=' pt-20  md:pt-24 h-full ' >
-              <span class='flex justify-center '>
-                 <h1 class=' sm:text-xl  md:text-2xl'> Vululwani Consulting</h1>
-              </span>
-              <div class=' sm:text-base text-sm flex justify-center md:pt-4 sm:pt-4 '>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, natus neque! Error at veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quae! </p>
-              </div>
-              <div class='   pt-5 pb-14 flex justify-center md:pt-10 '>
-                   <div class=' sm:w-auto w-38 p-2  font-bold  bg-blend-multiply  transition duration-500 ease-in-out border-2  hover:bg-green-800 transform hover:-translate-y-1 hover:scale-110'>
-                <div class='flex justify-center text-xs sm:text-base  '>
-                  <Link class='' href='/about'>ABOUT THE COMPANY </Link>
-                </div>
-                  
-                   </div>
-              </div>
-           </div>
-           </div>
-         </div>
+        <section class='  text-white bg-white'>
+          {AboutTheCompany}
+          {SomeOfOurClients}
+          {ContactLink}
          </section>
      )
  }
 
- export default Section;
+ export default HomeSection;

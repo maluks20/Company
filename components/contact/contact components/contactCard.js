@@ -1,7 +1,7 @@
 function ContactCard() {
     return (
         <section >
-        <div class='text-sm'>
+        <div class='text-sm '>
           <div class=''>
             <p class='pt-4 '>
             388 Okapi Close <br />

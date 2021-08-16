@@ -95,16 +95,15 @@ function NewForm() {
 
     return (
     <section class=' 
-         sm:font-bold   bg-white   border-2 border-indigo-600
- '>
-    <div class=' mx-0  
+         sm:font-bold  text-sm md:text-base bg-white '>
+    <div class=' mx-0  lg:flex
         sm:mx-10 sm:py-8 
           '>
            {/* //first contact card// */}
-          <div class='lg:w-2/6 p-10 text-white bg-indigo-700  
+          <div class='lg:w-2/6 p-10 text-black bg-green-50
             sm:w-full shadow '>
                 <div class='sm:w-auto'>
-                  <p class=' text-xl antialiased'>Contact information</p>
+                  <p class=' text-base antialiased'>Contact information</p>
                   <p class='pt-4  sm:text-left '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore nemo, enim accusantium vero eius.</p>
                 </div>
                  <div>
@@ -117,13 +116,13 @@ function NewForm() {
               <div class=' p-10 lg:w-4/6 text-black bg-gray-50  shadow sm:w-auto'>
                 <form onSubmit={sendMessageHandler}>
                     <div class=''>
-                        <p class='font-bold text-xl'>Send us a message</p>
+                        <p class='font-bold '>Send us a message</p>
                     </div>
                  
                  {/* //first part// */}
 
                 <div class=' lg:flex lg:justify-evenly pt-4  sm:flex-col sm:w-full '>
-                 <div class=' lg:w-3/6 h-full sm:w-full  '>
+                 <div class='  h-full sm:w-full  '>
                   <label htmlFor="name">First name</label>
                     <br />
                     <input 
@@ -131,18 +130,18 @@ function NewForm() {
                     required
                     value={enteredName}
                     onChange={(event) => setEnteredName(event.target.value)}
-                    class=' w-full h-10 rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent'
+                    class=' w-full h-8 md:h-10 rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent'
                            />
                   </div>
 
                  
-                 <div class='lg:w-3/6 h-full lg:ml-6 md:w-full md:ml-0  sm:w-full sm:ml-0 sm:py-2'>
+                 <div class=' h-full  md:w-full md:ml-0  sm:w-full sm:ml-0 sm:py-2'>
                  <label htmlFor="email">Last name</label>
                   <br />
                     <input 
                     type="text" 
                     required
-                    class='w-full h-10  rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent'
+                    class='w-full h-8 md:h-10   rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent'
                     value={enteredLastName}
                     onChange={(event) => setEnteredLastName(event.target.value)}
                     />
@@ -151,25 +150,25 @@ function NewForm() {
                
                 {/* //second part// */}
               <div class=' lg:justify-items-stretch  lg:justify-center py-4  md:flex md:flex-col md:w-full sm:flex sm:flex-col sm:py-2'>
-                   <div class=' lg:w-4/6  h-full md:w-full sm:w-full'>
+                   <div class='   h-full md:w-full sm:w-full'>
                      <label htmlFor="email">Email address </label> <br />
                     <input 
                      type="text" 
                      required 
                      value={enteredEmail}
                      onChange={(event) => setEnteredEmail(event.target.value)}
-                     class=' w-full h-10 rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent '  />
+                     class=' w-full h-8 md:h-10  rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent '  />
                   </div>
 
                 
-                    <div class=' lg:w-4/6  h-full lg:ml-6 md:w-full md:ml-0 md:pt-2 sm:ml-0 sm:w-full sm:py-2'>
+                    <div class='  h-full  md:w-full md:ml-0 md:pt-2 sm:ml-0 sm:w-full sm:py-2'>
                      <label htmlFor="number">Phone number</label> <br />
                      <input 
                      type="text" 
                      required 
                      value={enteredPhoneNumber}
                      onChange={(event) => setEnteredPhoneNumber(event.target.value)}
-                    class=' w-full h-10  rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent'  />
+                    class=' w-full h-8 md:h-10   rounded-lg border-2 border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent'  />
                     </div>
                 </div>
 

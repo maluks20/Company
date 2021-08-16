@@ -26,12 +26,16 @@ function FooterSection() {
                     <li class="no-underline hover:underline ..." >
                         <Link href='/'>Home</Link>
                     </li>
+                    <li class="no-underline hover:underline">
+                        <Link 
+                         href='/about'>About</Link>
+                    </li>
                     <li class="no-underline hover:underline ..." >
                         <Link  
                         href='services'>Services</Link>
                     </li>
                     <li class="no-underline hover:underline ...">
-                        <Link  href='/clients'>Our Clients </Link>
+                        <Link  href='/clients'>Clients </Link>
                     </li>
                     <li class="no-underline hover:underline">
                         <Link 
