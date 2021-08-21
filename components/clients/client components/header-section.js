@@ -1,16 +1,10 @@
 
 function HeaderClients() {
     return(
-        <section class='bg-white'>
-        <div class='pt-10 pb-6 md:ml-28 md:mr-28 '>
-              <div class='flex justify-center '>
-                 <h1 class=' text-2xl'>Our clients</h1>
-              </div>
-              <div class='flex justify-center pt-4 text-base'>
-              <p class=' flex justify-center  w-1/2 md:w-full text-center'> these are our client that we have worked with.
-                   </p>
-            </div>
-           </div>
+        <section class='bg-gray-200 '>
+        <div class=' text-center py-4 md:py-6  md:mx-16 lg:mx-36'>
+            <h2 class='text-xl'> Our clients </h2>
+        </div>
         </section>
     )
 }

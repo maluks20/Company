@@ -3,7 +3,7 @@ import Image from 'next/image'
 function ListOfClients() {
     return (
         <section class='bg-white flex justify-center py-20 w-full'>
-        <div class=' mx-4 h-full grid gap-4  grid-cols-3  pt-16 lg:gap-10 '>
+        <div class=' mx-8 md:mx-4 h-full grid gap-4  grid-cols-3  md:pt-16 lg:gap-10 '>
             <div class='place-self-center'>
                 <Image
                  src='/images/Client-logo/Picture1.png'

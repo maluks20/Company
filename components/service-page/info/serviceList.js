@@ -4,7 +4,7 @@ import Image from 'next/image'
 function ServiceList() {
     return (
     <section class='bg-white  text-sm '>
-     <div class='md:mx-28 mx-10 md:py-10 '>
+     <div class='md:mx-28 mx-8 md:py-10 pb-4'>
         
         
         <div class=''>
@@ -15,12 +15,10 @@ function ServiceList() {
           </div>
         </div>
 
-
-
         <div class='  md:grid md:gap-5 md:grid-cols-2'>
 
-         <card class='  border-3 border border-red-100 md:h-70'>
-            <div class='border-3 p-4  shadow-md py-4 sm:pl-6 md:min-h-full '>
+          {/* //! Abnormal Loads */}
+            <div class='border-3 p-4  md:h-70 shadow-md py-4 sm:pl-6 md:min-h-full '>
              <div class=''>
                  <Image
                  src='/images/Services/Picture8.png'
@@ -38,11 +36,11 @@ function ServiceList() {
                  </p>
              </div>
             </div>
-         </card>
+         
 
-
-         <card class='  border-4 border-gray-50 md:h-70 '>
-          <div class='p-2 shadow-md sm:py-10  sm:pl-6  md:h-full'>       
+         {/* //! IN-house operator */}
+        
+          <div class='p-2 border-3 shadow-md border-gray-50 md:h-70  sm:py-10  sm:pl-6  md:h-full'>       
              <div>
                  <Image
                  src='/images/Services/Picture9.png'
@@ -61,10 +59,10 @@ function ServiceList() {
                  </p>
              </div>
              </div>
-         </card>
+        
 
-         <card class=' md:shadow-md border-3  border-gray-100 md:h-70 border-2'>
-             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6 md:h-full border-yellow-300 border-2'>
+             {/* //! Air freight */}
+             <div class='shadow-md border-3 border-gray-100 md:h-70 p-2 md:p-2   md:h-full '>
              <div>
                  <Image
                  src='/images/Services/Picture10.png'
@@ -82,11 +80,10 @@ function ServiceList() {
                  </p>
              </div>
              </div>
-         </card>
 
 
-         <card class=' border-3 border-gray-100 md:h-70 border-2 '>
-             <div class='md:min-h-full h-70 p-2 md:p-2 shadow-md sm:py-10 sm:pl-6'>
+            {/* //! Cross border freight */}
+             <div class=' border-3 border-gray-100 md:h-70 border-2 md:min-h-full h-70 p-2 md:p-2 shadow-md sm:py-10 sm:pl-6'>
              <div>
                  <Image
                  src='/images/Services/Picture11.png'
@@ -101,14 +98,14 @@ function ServiceList() {
              </div>
              <div>
                  <p>We offer road freight solution
-                   to, from and within southern africa
+                   to, from and within Southern Africa
                  </p>
              </div>
              </div>
-         </card>
+         
 
-         <card class='  border-3 border-white md:h-70'>
-             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6 md:h-full'>
+             {/* //! domestic road freight  */}
+             <div class='p-2 py-4 md:p-2 md:h-70 border-3 border-white shadow-md sm:py-10 sm:pl-6 md:h-full'>
              <div>
                  <Image
                  src='/images/Services/Picture12.png'
@@ -127,10 +124,9 @@ function ServiceList() {
                  </p>
              </div>
              </div>
-         </card>
-
-         <card class='lg:shadow-md  border-4 border-white md:h-70 '>
-             <div class='p-2 md:p-2 shadow-md sm:py-10 sm:pl-6 md:h-full'>
+         
+              {/* //! Containeraized  */}
+             <div class='py-2  md:p-2 md:h-70 border-4 border-white shadow-md sm:py-10 sm:pl-6 md:h-full'>
              <div>
                  <Image
                  src='/images/Services/Picture13.png'
@@ -149,7 +145,7 @@ function ServiceList() {
                  </p>
              </div>
              </div>
-         </card>
+
         </div>
         </div>
         </section>

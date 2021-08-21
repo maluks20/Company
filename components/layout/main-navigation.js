@@ -17,15 +17,16 @@ function MainNavigation() {
 
     const MobileButtonMenu = (
     <section class='bg-gray-100 md:hidden  '>
-      <div class='w-full mx-8'>
+      <div class=' mx-8'>
         <nav class=' text-black  w-full '  >
-          <div class='flex w-full '>
+          <div class='flex  '>
                     <ul class='flex-col font-semibold  text-black text-xs w-full'>
                     <li class='m-2'>
                         <Link href='/'>
                          <p class=' hover:opacity-25 w-full my-4'>Home</p>
                         </Link>
-                    </li> <hr />
+                    </li> 
+                    <hr  />
                     <li class='m-2'>
                         <Link href='/about'>
                          <p class=' w-full my-4 hover:opacity-25'>About</p>
@@ -97,8 +98,8 @@ function MainNavigation() {
                         <Link href='/clients'>Clients</Link>
                     </li>
                     <li class='m-2 '>
-                        <div class='text-gray-50  bg-green-800 sm:w-auto w-32 p-2  font-bold border-2 border-gray-50 bg-blend-multiply  transition duration-500 ease-in-out hover:bg-white 
-                        hover:border-4 hover:border-green-800 hover:text-green-800'>
+                        <div class='text-gray-50 border-2 border-white bg-green-800 w-auto text-base h-auto p-2   bg-blend-multiply  transition duration-500 ease-in-out hover:bg-white 
+                        hover:border-2 hover:border-green-800 hover:text-green-800'>
                         <Link href='/contact'>CONTACT US</Link>
                         </div>
                     </li>
