@@ -14,7 +14,7 @@
 
 const mainBody = (
         <section>
-            <div>
+            <div >
             <div>
                 <h2 class='text-green-800 md:text-xl'></h2>
                 <h1 class='md:py-2  py-4 font-bold'>Mission</h1>
@@ -47,7 +47,7 @@ const mainBody = (
 
     const Body = (
         <section class='bg-white'>
-            <div class='border-2  text-opacity-25 md:mx-16 lg:mx-53 py-10 flex justify-center text-justify'>
+            <div class='  text-opacity-25 md:mx-16 lg:mx-53 py-10 flex justify-center text-justify'>
                 <div class=' mx-8  md:p-26 text-left md:w-1/2 '>
                 <h2 class='text-base pb-4 font-bold  md:py-4 md:text-xl  text-green-800'>Vululwani Consulting</h2>
                 <p font-bold>
@@ -65,7 +65,7 @@ const mainBody = (
     )
 
     return (
-        <section >
+        <section class='bg-white' >
         {Header}
         {Body}
         </section>

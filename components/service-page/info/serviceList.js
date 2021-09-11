@@ -29,7 +29,7 @@ function ServiceList() {
                  />
              </div>
              <div class='font-bold py-4 lg:text-base '>
-                 <h1>Abnormal Loads (domestic and cross border</h1>
+                 <h1>Abnormal Loads (domestic and cross border)</h1>
              </div>
              <div class=''>
                  <p>We offer low beds truck for abnormal loadswith South Africa and also cross border

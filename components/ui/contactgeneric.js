@@ -7,7 +7,7 @@ function ContactLink() {
         <div class=' pt-2 md:pt-0   mx-8 md:mx-16 lg:mx-22 md:py-8 '>
             <p class='mx-0 text-center text-base md:text-xl font-bold py-2 bo '> Ready to take your business to the next level? Let's talk...
             </p>
-            <p class='text-center text-sm pb-4 md:pb-0'>
+            <p class='text-center text-sm md:text-base pb-4 md:pb-0'>
               We are standing by, ready to assist you and  help you to <br /> determine which logistics solutions will be the <br /> best fit for your needs.
               </p>
             <div class=' text-sm flex justify-center md:pt-6 md: pb-6 '>

@@ -22,10 +22,13 @@ import Image from 'next/image'
 
     const SomeOfOurClients = (
         <section class='text-black '>
-        <div class=' md:px-6 md:mx-16 lg:mx-28  py-10'>
-          <p class='text-base md:text-base lg:text-xl text-center font-bold pt-2'> client that  we have work with</p>
-            <div class=' mx-8  md:py-8 md:pt-8  md:gap-8 md:flex md:justify-center'>
-             <div class='md":place-self-center py-6  '>
+        <div class='   md:px-6 md:mx-16 lg:mx-28  py-10'>
+          <p class='text-base md:text-base lg:text-xl text-center font-bold pt-2'> Client that  we have work with</p>
+            <div class='   mx-8   md:py-8 md:pt-8  md:gap-8 md:flex md:justify-center'>
+            <div class='md:flex col-3 md:gap-8'>
+               
+               <div class=' flex justify-center '>
+                <div class='  w-auto  md:place-self-center py-6 '>
                 <Image
                  src='/images/Client-logo/Picture2.png'
                  alt={'am'}
@@ -33,8 +36,11 @@ import Image from 'next/image'
                  height={150}
                  responsive= 'layout'
                 />
-             </div>
-             <div class=' md:place-self-center py-6  '>
+                </div>
+                </div>
+
+             <div class='flex justify-center'>
+             <div class=' w-auto  md:place-self-center py-6  '>
                 <Image
                  src='/images/Client-logo/Picture1.png'
                  alt={'am'}
@@ -43,14 +49,20 @@ import Image from 'next/image'
                  
                 />
              </div>
-             <div class='md:place-self-center py-6 w-full md:w-auto' >
+             </div>
+              
+              <div class='flex justify-center'>
+             <div class=' w-auto  md:place-self-center py-6  md:w-auto' >
                 <Image
-                 src='/images/Client-logo/Picture3.png'
+                 src='/images/Client-logo/Picture5.png'
                  alt={'am'}
-                 width={300}
-                 height={95}
+                 width={280}
+                 height={110}
                  
                 />
+             </div>
+             </div>
+
              </div>
             </div>
         </div> 
